@@ -1,68 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="style.css">
 
-    <title>Bootstrap practice</title>
 </head>
-
 <body>
-    <!-- As a heading -->
-    <nav class="navbar navbar-light bg-dark">
-        <span class="navbar-brand mb-0 h1" style="color:#fff!important;">Navbar</span>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-12"><h1>About Me</h1></div>
-                    <div class="col-3">
-                            <img src="https://via.placeholder.com/150"
 
-                            C/O https://placeholder.com/ alt="placeholder.com" class="img-thumbnail" />
-                    </div>
-                    <div class="col-9">
-                        <p>Contact Me!</p>
-                        <form>
-                        First name:<br>
-                        <input type="text" name="firstname">
-                        <br>
-                        Last name: <br>
-                        <input type="text" name="lastname">
-                    </form>
-                    <br>
-                    <textarea>
-                    </textarea>
-                    <br>
-                    <button type="button" class="btn btn-primary">SEND</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Goals</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">and achievements</h6>
-                        <p class="card-text">I aim to land a full time job in the tech industry.
-                            <ul><li>Auburn University spring 2015</li><li> Delta Kappa Epsilon Fraternity</li><li> Intermural bowling champion team.</li></ul></p>
-                        <br>
-                        <br>
-                        <div class="col-4">
-                                <div class="card" style="width: 18rem;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">contact information</h5>
-                                
-                                 <p class="card-text"><ul><li>chase.hair11@gmail.com</li><li>https://www.linkedin.com/in/charles-hair-683421170/</li></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Center -->
+    <h1>The Wonders of CSS!</h1>
+
+    <hr>
+
+    <h2>Fun With Text!</h2>
+
+    <!-- Change text color -->
+    <p id=para1>This text is red.</p>
+    <p id=para2>This text is blue.</p>
+    <p id=para3>This text is green.</p>
+
+    <!-- Change font-size -->
+    <p id=para4>This text is BIG!</p>
+    <p id=para5>This text is tiny...</p>
+
+    <!-- Center -->
+    <p id=para6>~~This text is centered~~</p>
+
+    <!-- Bold -->
+    <p id=para7>If we have something important to say, we can make it bold!</p>
+
+    <!-- Change font -->
+    <p id=para8>We can even change our font-family if we are feeling creative!</p>
+
+    <!-- Multiple attributes -->
+    <p id=para9>Try combining multiple attributes to make big, orange, bold text!</p>
+
+    <hr>
+
+    <!-- Classes -->
+    <p class="styledFont">We can also apply the same style to multiple HTML elements.</p>
+    <p class="styledFont">Each one of these lines is within a different &ltp&gt tag, yet they all have the same styling.</p>
+    <p class="styledFont">That's because they are all a part of the same CSS class!</p>
+    <p class="styledFont">CSS classes let us define a style once and let us then apply it to multiple elements!</p>
+    <p class="styledFont">In your external CSS file, create a style for the class styledFont.</p>
+    <p class="styledFont">Notice how every time you change the class styledFont, all of the text changes.</p>
+
+    <hr>
+
+    <p>Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
+
+    <!-- Border & id -->
+    <img id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
+
+    <hr>
+
 </body>
-
 </html>
